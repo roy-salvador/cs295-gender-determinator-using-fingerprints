@@ -11,7 +11,7 @@ A simple python application which predicts the gender of the fingerprint owner f
 * [NIST Special Database 4] (http://www.nist.gov/srd/nistsd4.cfm) used as dataset
 * [CAFFE Deep Learning Framework] (http://caffe.berkeleyvision.org/) for training and classification
 * [OpenCV](http://docs.opencv.org/3.1.0/d5/de5/tutorial_py_setup_in_windows.html#gsc.tab=0) Computer Vision Library
-* * Python 2.7.11
+* Python 2.7.11
 
 
 ## Instructions
