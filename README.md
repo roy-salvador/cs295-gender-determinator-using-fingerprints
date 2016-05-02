@@ -16,7 +16,9 @@ A simple python application which predicts the gender of the fingerprint owner f
 
 ## Instructions
 1. Clone and download the repository.
-2. Go to the downloaded directory and run the application
+2. Train using the Nist Special Database 4 database with the model files provided.
+3. Update the script with trained caffe models
+3. Run the application
 
   ```  
   python gender-determinator.py
