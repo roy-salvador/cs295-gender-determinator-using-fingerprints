@@ -29,8 +29,8 @@ net2 = caffe.Classifier('model/elu_oversampled_deploy.prototxt','model/SAVE/elu_
 #net2.blobs['data'].reshape(1,1,227,227)
 #net3.blobs['data'].reshape(1,1,256,256)
 
-#infoFile = open('model/test_list.txt', 'r')
-infoFile = open('model/test2.txt', 'r')
+infoFile = open('model/test_list.txt', 'r')
+#infoFile = open('model/test2.txt', 'r')
 i=0
 FingerTypes = ['R_Thumb', 'R_Index', 'R_Middle', 'R_Ring','R_Little','L_Thumb','L_Index', 'L_Middle', 'L_Ring', 'L_Little']
 FingerTypeCounts = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
